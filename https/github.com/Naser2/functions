@@ -1,0 +1,35 @@
+function doSomething(thing) {
+  console.log(thing)
+};
+
+
+function sayHello() {
+  console.log("Hello Javascript World")
+};
+
+
+const firstName = "Ben";
+const lastName = "Ward";
+
+ function sayHelloToSofia() {
+  console.log("Hello, Sofia!")
+};
+
+function say(greeting, firstName) {
+  return `${greeting}, ${firstName}!`
+  console.log('I was called!')
+};
+
+
+function greet(){
+  // return `${firstName} ${lastName}!`//
+ return `Hi, Dr ${firstName} ${lastName}!`
+};
+
+
+doSomething() // => undefined
+sayHello()    // => Hello Javascript World
+sayHelloToSofia()
+greet()
+say("Howdy", "partner") // 
+greet() // => 'Hi, Dr Ben Ward!'
